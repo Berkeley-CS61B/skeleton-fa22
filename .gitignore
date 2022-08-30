@@ -1,0 +1,9 @@
+**/.idea
+**/out
+*.iml
+*.class
+.ipynb_checkpoints/
+.DS_Store
+.envrc
+.env
+**/.vscode/**
