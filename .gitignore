@@ -390,3 +390,9 @@ tramp
 !byow/**/*.mp4
 !byow/**/*.gif
 !byow/**/*.wav
+
+synsets.txt
+hyponyms.txt
+top_14377_words.csv
+top_49887_words.csv
+all_words.csv
