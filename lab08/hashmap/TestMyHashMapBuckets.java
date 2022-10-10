@@ -88,14 +88,6 @@ public class TestMyHashMapBuckets {
         TestMyHashMap.sanityPutTest(new MyHashMapPQBuckets<>());
     }
 
-    @Test
-    public void sanityKeySetTest() {
-        TestMyHashMap.sanityKeySetTest(new MyHashMapALBuckets<>());
-        TestMyHashMap.sanityKeySetTest(new MyHashMapLLBuckets<>());
-        TestMyHashMap.sanityKeySetTest(new MyHashMapTSBuckets<>());
-        TestMyHashMap.sanityKeySetTest(new MyHashMapHSBuckets<>());
-        TestMyHashMap.sanityKeySetTest(new MyHashMapPQBuckets<>());
-    }
 
     // Test for general functionality and that the properties of Maps hold.
     @Test
