@@ -3,6 +3,9 @@ package hashmap;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /** Tests of optional parts of lab 8. */
 public class TestMyHashMapExtra {
 
