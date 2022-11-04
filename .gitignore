@@ -364,6 +364,7 @@ tramp
 #proj3/img
 #proj3/target
 #*.osm
+!project3prep.md
 
 # Project 1B things
 # words

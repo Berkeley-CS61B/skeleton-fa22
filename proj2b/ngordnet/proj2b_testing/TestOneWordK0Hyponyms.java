@@ -18,11 +18,10 @@ public class TestOneWordK0Hyponyms {
     public static final String SMALL_HYPONYM_FILE = "data/wordnet/hyponyms16.txt";
 
     @Test
-    public void testAlteration() {
+    public void testActK0() {
         NgordnetQueryHandler studentHandler = AutograderBuddy.getHyponymHandler(
                 WORDS_FILE, TOTAL_COUNTS_FILE, SMALL_SYNSET_FILE, SMALL_HYPONYM_FILE);
-        List<String> words = new ArrayList<>();
-        words.add("act");
+        List<String> words = List.of("act");
 
         NgordnetQuery nq = new NgordnetQuery(words, 0, 0, 0);
         String actual = studentHandler.handle(nq);
